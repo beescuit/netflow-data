@@ -83,3 +83,22 @@ Sharktech is also fairly public about their relationship with Team Cymru. [Here'
 ### AS31549 - Aria Shatel PJSC
 
 [The Malicious Android Applications](https://www.recordedfuture.com/blog/malicious-android-apps) report by Recorded Future mentions observed traffic between Aria Shatel Company and IP addresses owned by Telegram (AS62041). It also mentions communication with IPs owned by "XTIDC", a chinese company. XTIDC's range has apparently been transfered to Sharktech. Assuming Telegram and XTIDC were not sharing data with Cymru, we can guess Aria Shatel is.
+
+### AS28186 - ITS TELECOMUNICACOES LTDA (and AS263880, AS262373, AS263636, AS263151)
+
+Team Cymru's Nimbus webpage contains a testimonial made by `Francisco Badaró, Telecommunications and Training Manager, ITS Brasil`.
+
+Francisco has also published documents on the usage of Nimbus:
+- https://www.lacnic.net/innovaportal/file/5959/1/ftl-lacnic-37-vfinal.pdf (Portuguese);
+- [Practical ISP CSIRT Incident Handling with NIMBUS from Team Cymru](https://www.researchgate.net/publication/354849906_Practical_ISP_CSIRT_Incident_Handling_with_NIMBUS_from_Team_Cymru_How_to_leverage_network_flows_ELK_Stack)
+
+The publication in english contains a screenshot of the Nimbus dashboard that outlines communications with a Mirai botnet IP (89.187.171.77). The IPs on the other side of the connection are:
+
+```
+- 187.44.188.254 (AS28186 - ITS TELECOMUNICACOES LTDA )
+- 168.205.36.135 (AS263880 - WANTEL TECNOLOGIA LTDA. ­ EPP)
+- 168.195.252.190 (AS262373 - CONECT TELECOM)
+- 177.200.117.84 (AS263636 - CALLNET TELECOM)
+- 191.242.177.14 (AS263151 - CONECT TELECOM)
+- 187.44.193.90 (AS28186 - ITS TELECOMUNICACOES LTDA)
+```
