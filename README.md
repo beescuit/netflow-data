@@ -102,3 +102,132 @@ The publication in english contains a screenshot of the Nimbus dashboard that ou
 - 191.242.177.14 (AS263151 - CONECT TELECOM)
 - 187.44.193.90 (AS28186 - ITS TELECOMUNICACOES LTDA)
 ```
+
+### Other ASes
+
+The documentation for Team Cymru's "Scout Ultimate" product is publicly available online: https://scout.cymru.com/docs/scout/ultimate. It includes sample response data from a request to `GET /api/scout/ip/{ip}/details`, looking up the `104.18.213.12` IP, belonging to Cloudflare. As Cloudflare does not share netflow data with Team Cymru, it is safe to assume that every peer in the response of this request does share netflow logs with them. By parsing the response data, we get the following results:
+
+```
+206476 - IPTECHNOLOGY, IT
+19556 - ISOTECH-INC, US
+15038 - CAMBINC-1, US
+32244 - LIQUIDWEB, US
+17625 - BLAZENET-IN-AP BlazeNets Network, IN
+328350 - NetworkComputing-AS, ZA
+25512 - CDT-AS The Czech Republic, CZ
+36511 - NETDT-GUA, GP
+559 - SWITCH Peering requests: peering@switch.ch, CH
+43507 - RETE-AS, CZ
+37199 - VANILLA, ZA
+37406 - RCS, SS
+60304 - STARNET, AL
+25145 - AS-TEKNOTEL Teknotel Telekomunikasyon A.S., TR
+201814 - MEVSPACE, PL
+265727 - Infinite Wireless & Networking, BZ
+141723 - BEEONLINE-AS-AP BEE ONLINE, BD
+142453 - FASTJET-AS-IN FASTJET TELECOM PRIVATE LIMITED, IN
+38477 - SOLARIX-NZ Solarix Networks Limited, NZ
+50782 - COSYS, AT
+23955 - TASHICELL-DOMESTIC-AS Tashi InfoComm Limited, BT
+199468 - SOLWAY-COMMS-UK, GB
+328212 - The-University-Of-Cape-Coast-AS, GH
+51524 - ASNETDELUXE, CZ
+45942 - SIKKANET-AS-AP Sikka Broadband Pvt. Ltd., IN
+61681 - MEGANET BRASIL, BR
+132971 - SIKKASTAR-AS-IN Sikka Star powered by Sikka Broadband, IN
+328633 - MikroTikSA-Networks, ZA
+20545 - GRENA-AS Tbilisi, Georgia, GE
+38203 - ADNTELECOMLTD-BD ADN Telecom Ltd., BD
+3582 - UONET, US
+25021 - CIEF-AS Etat de Fribourg, SITel, CH
+134351 - LEASEWEB-AS-AP Leaseweb Japan K.K., JP
+149058 - SPEEDLINKS-AS-AP Speed Links, BD
+137412 - TASHICELL-MOBILE-AS Tashicell Domestic AS Thimphu Bhutan, BT
+197207 - MCCI-AS, IR
+36866 - JTL, KE
+132547 - SAJAGPRAHARI-AS Sajag Prahari Foundation, IN
+132519 - SIKKACABLE-AS-IN Sikka Cable, IN
+23916 - HOTHL-NZ House of Travel Holdings Ltd, NZ
+766 - REDIRIS RedIRIS Autonomous System, ES
+266068 - Tribunal de Justica do Estado de Sergipe, BR
+200521 - SEAP-AGE, ES
+52420 - Intercom SRL, AR
+51167 - CONTABO, DE
+197550 - ASINET4YOU, CZ
+23838 - SOLARIX-INTERNET-AS-AP Solarix Networks Limited, NZ
+38437 - WIC-AS-NZ Wicked Networks, NZ
+5379 - MK-UKIM-1, MK
+197698 - DHT_SYSTEMS, CZ
+39235 - DAT-AS cz.dat autonomous system, CZ
+61510 - Cooperativa Telefonica de Calafate Ltda., AR
+11878 - TZULO, US
+14061 - DIGITALOCEAN-ASN, US
+13041 - CESCA-AC, ES
+9009 - M247, RO
+263812 - SONDATECH S.A.S., AR
+29611 - ELITE-AS, GB
+206804 - ESTNOC-GLOBAL, EE
+16276 - OVH, FR
+49770 - INTERNETPORT-AS, SE
+1213 - HEANET, IE
+268829 - ZUTTEL FIBRA LTDA, BR
+12874 - FASTWEB, IT
+262401 - GSTN TELECOMUNICACOES LTDA, BR
+19994 - RACKSPACE, US
+4270 - Red de Interconexion Universitaria, AR
+31122 - DIGIWEB-AS, IE
+197829 - GOBIERNO-DE-NAVARRA, ES
+9050 - RTD Bucharest, Romania, RO
+208046 - COLOCATIONX-DATACENTER Dedicated Server Provider, GB
+24309 - CABLELITE-AS-AP Atria Convergence Technologies Pvt. Ltd. Broadband Internet Service Provider INDIA, IN
+270786 - CITYNET COM. DE PROD. DE INFORMATICA LTDA, BR
+269996 - HENDERSON.NET SRL, AR
+266062 - R2 DADOS LTDA - ME, BR
+41354 - ITS-TG, GB
+4770 - ICONZ-AS ICONZ Ltd, NZ
+22245 - WICHITA-STATE-U, US
+60404 - LITESERVER, NL
+17913 - GIPLNET-AP Guj Info Petro Limited, IN
+56055 - MLS-NC Micro Logic Systems, NC
+15488 - UPV-EHU, ES
+328114 - Comsol-Networks-AS, ZA
+56450 - ALBERON_AS, CZ
+31103 - KEYWEB-AS, DE
+46844 - SHARKTECH, US
+135328 - TSL-AS-AP Tangelo Services, NZ
+55256 - NETSKOPE, US
+25543 - FasoNet-AS, BF
+10139 - SMARTBRO-PH-AP Smart Broadband, Inc., PH
+45773 - HECPERN-AS-PK PERN AS Content Servie Provider, Islamabad, Pakistan, PK
+37020 - CELTEL-DRC, CD
+32111 - CITIGROUP-JAPAN, US
+140443 - IDNIC-HERZA-AS-ID PT Herza Digital Indonesia, ID
+9299 - IPG-AS-AP Philippine Long Distance Telephone Company, PH
+266168 - TOPNET-MS LTDA - ME, BR
+37340 - Spectranet, NG
+27357 - RACKSPACE, US
+15630 - UNED UNED Autonomous System, ES
+34285 - JJAA-AS, ES
+328943 - AAS1-AS, AO
+28586 - BANCO BRADESCO SA, BR
+37447 - ORANGE-RDC, CD
+17676 - GIGAINFRA SoftBank Corp., JP
+36884 - MAROCCONNECT, MA
+198096 - CICA Centro Informatico Cientifico de Andalucia - CICA, ES
+263612 - IP CARRIER BRASIL, BR
+262659 - ULTRAWAVE TELECOM, BR
+27446 - AS-ERCBB, US
+53187 - UNIVERSIDADE ESTADUAL DE CAMPINAS, BR
+43424 - MAGICRETAIL, FR
+52798 - BANCO BTG PACTUAL S.A., BR
+8452 - TE-AS TE-AS, EG
+53070 - T-Systems do Brasil Ltda., BR
+268234 - VNTFMAIS LTDA, BR
+28360 - WKVE Asses. em Servicos de Inform. e Telecom. Ltda, BR
+264738 - Sebastian Souto SSSERVICIOS, AR
+21826 - Corporacion Telemic C.A., VE
+17471 - CYBERNET-BD-AS Grameen Cybernet Ltd. Bangladesh. AS for local peering and transit. Dhaka, BD
+264417 - Megalink Telecom, BR
+37371 - HORMUUD, SO
+16135 - TURKCELL-AS Turkcell A.S., TR
+```
